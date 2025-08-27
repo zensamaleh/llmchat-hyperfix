@@ -76,10 +76,10 @@ export const modelOptions = [
     },
     {
         label: 'Gemini Flash 2.0',
-        value: ChatMode.GEMINI_2_FLASH,
+        value: ChatMode.GEMINI_2_5_FLASH,
         // webSearch: true,
         icon: undefined,
-        creditCost: CHAT_MODE_CREDIT_COSTS[ChatMode.GEMINI_2_FLASH],
+        creditCost: CHAT_MODE_CREDIT_COSTS[ChatMode.GEMINI_2_5_FLASH],
     },
 
     {
