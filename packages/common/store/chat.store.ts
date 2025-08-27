@@ -439,7 +439,7 @@ export const useChatStore = create(
         editor: undefined,
         context: '',
         threads: [],
-        chatMode: ChatMode.GEMINI_2_FLASH,
+        chatMode: ChatMode.GEMINI_2_5_FLASH,
         threadItems: [],
         useWebSearch: false,
         customInstructions: '',
