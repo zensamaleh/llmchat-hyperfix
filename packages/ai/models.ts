@@ -13,6 +13,7 @@ export enum ModelEnum {
     Claude_3_5_Sonnet = 'claude-3-5-sonnet-20240620',
     O4_Mini = 'o4-mini',
     GEMINI_2_5_FLASH = 'gemini-2.5-flash',
+    GEMINI_2_FLASH = 'gemini-flash-2.0',
     QWQ_32B = 'accounts/fireworks/models/qwq-32b',
     Deepseek_R1 = 'accounts/fireworks/models/deepseek-r1',
     Claude_3_7_Sonnet = 'claude-3-7-sonnet-20250219',
