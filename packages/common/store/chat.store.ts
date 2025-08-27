@@ -39,9 +39,9 @@ const loadInitialData = async () => {
               model: models[0].id,
               useWebSearch: false,
               showSuggestions: true,
-              chatMode: ChatMode.GEMINI_2_FLASH,
+              chatMode: ChatMode.GEMINI_2_5_FLASH,
           };
-    const chatMode = config.chatMode || ChatMode.GEMINI_2_FLASH;
+    const chatMode = config.chatMode || ChatMode.GEMINI_2_5_FLASH;
     const useWebSearch = typeof config.useWebSearch === 'boolean' ? config.useWebSearch : false;
     const customInstructions = config.customInstructions || '';
 
